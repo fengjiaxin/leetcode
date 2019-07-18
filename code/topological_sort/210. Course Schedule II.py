@@ -33,7 +33,7 @@ Explanation: There are a total of 4 courses to take. To take course 3 you should
 
 
 class Solution:
-    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+    def findOrder(self, numCourses, prerequisites):
         '''
         思路：利用dfs来进行拓扑排序
         '''
